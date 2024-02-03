@@ -48,7 +48,7 @@ class FCFS:
             print(
                 f"Executing process: {process[0]}, Wait time: {process[1]}, Start time: {process[2]}, End of process: {process[3]}")
 
-        print(f"Time of entire process: {total_execution_time}s")
+        print(f"Time of entire process: {total_execution_time}ms")
 
         # Print just the names of processes and the order in which they were executed
         print("Execution order:", ", ".join(execution_order))

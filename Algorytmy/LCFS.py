@@ -48,7 +48,7 @@ class LCFS:
             print(
                 f"Executing process: {process[0]}, Wait time: {process[1]}, Start time: {process[2]}, End of process: {process[3]}")
 
-        print(f"Time of entire process: {total_execution_time}s")
+        print(f"Time of entire process: {total_execution_time}ms")
 
         # Print just the names of processes and the order in which they were executed
         print("Execution order:", ", ".join(execution_order))
@@ -58,4 +58,4 @@ class LCFS:
             total_wait_time += time
             count += 1
         average_wait_time = float(total_wait_time / count)
-        print(f"Average wait time: {average_wait_time:.2f}\n")
+        print(f"Average wait time: {average_wait_time:.2f}ms\n")
